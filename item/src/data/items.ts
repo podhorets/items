@@ -66,7 +66,7 @@ const items: Item[] = [
   },
   {
     number: 4,
-    title: "Esszimmerstuhl mit Armlehnen",
+    title: "4x Esszimmerstuhl mit Armlehnen",
     description:
       "Preis für 4 Stück",
     price: 95,
@@ -136,7 +136,7 @@ const items: Item[] = [
     title: "Polsterbett 160x200cm",
     description:
       "Polsterbett 160x200cm mit 2 USB, Doppelbett mit Lattenrost, Jugendbett mit LED, Holzbett mit Schwebebettrahmen, Leinen, Beige",
-    price: 150,
+    price: 140,
     newPrice: 300,
     photoUrl: [
       "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780244909/Items/acd39f833e08e17ec5325d2d0b54fd76_ci9wno.webp",
@@ -149,11 +149,11 @@ const items: Item[] = [
   },
   {
     number: 9,
-    title: "Ergonomischer Bürostuhl",
+    title: "Ergonomischer Bürostuhl (fast neu)",
     description:
         "Ergonomischer Bürostuhl V-Stuhl für langes Sitzen & Rückenunterstützung",
-    price: 150,
-    newPrice: 300,
+    price: 90,
+    newPrice: 0,
     photoUrl: [
       "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780238562/Items/IMG_9805_mqvrkh.heic",
       "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780238557/Items/IMG_9798_afm8vj.heic",
@@ -202,13 +202,88 @@ const items: Item[] = [
     number: 12,
     title: "2x Nachttische",
     description:
-        "",
+        "Preis für 2 Stück",
     price: 40,
     newPrice: 0,
     photoUrl: [
       "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780238535/Items/IMG_9768_q8ganh.heic",
       "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780238534/Items/IMG_9769_gj5xy9.heic",
       "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780238537/Items/IMG_9770_hltueu.heic"
+    ],
+  },
+  {
+    number: 13,
+    title: "Balkonmöbel Set: Tisch, Stühle & Teppich",
+    description:
+        "",
+    price: 50,
+    newPrice: 0,
+    photoUrl: [
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780238501/Items/IMG_9673_jp8vl3.jpg",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780238501/Items/IMG_9672_jvlse3.jpg"
+    ],
+  },
+  {
+    number: 14,
+    title: "3x Couchtische – Set / Beistelltische",
+    description:
+        "",
+    price: 30,
+    newPrice: 0,
+    photoUrl: [
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780238515/Items/IMG_9706_w3omjo.heic",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780238516/Items/IMG_9707_chqzr3.heic"
+    ],
+  },
+  {
+    number: 15,
+    title: "PHILIPS Series 7000 Nass-/Trockensauger",
+    description:
+        "PHILIPS XW7110/01 AquaTrio Cordless Serie 7000 saugen und wischen, kabellos, Akkusauger, Nass-/Trockensauger, Akkubetrieb",
+    price: 140,
+    newPrice: 450,
+    photoUrl: [
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780249742/Items/IMG_7160_sa7umj.jpg",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780249743/Items/IMG_7161_oh9bc6.jpg",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780250043/Items/ASSET_MMS_106893982_p6qv5m.jpg"
+    ],
+  },
+  {
+    number: 16,
+    title: "120L Aquarium Komplettset mit Außenfilter, Luftpumpe & Heizer – inkl. Fischbesatz",
+    description:
+        "Ein sehr gepflegtes 120 Liter Aquarium Komplettset inklusive Technik und Fischbesatz.\n" +
+        "\n" +
+        "Das Aquarium wurde neu gestartet im Februar 2026 und befindet sich in einem sehr guten, stabil laufenden Zustand.",
+    price: 150,
+    newPrice: 600,
+    photoUrl: [
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780249699/Items/IMG_7117_gfawoh.jpg",
+        "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780249706/Items/IMG_7125_uwk9u6.jpg",
+        "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780249705/Items/IMG_7122_lnrf4g.jpg",
+        "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780249702/Items/IMG_7120_lppsi8.jpg",
+        "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780249706/Items/IMG_7121_khksrq.jpg",
+        "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780249709/Items/IMG_7136_px3mat.jpg",
+        "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780249708/Items/IMG_7133_t7xepx.jpg"
+    ],
+  },
+  {
+    number: 17,
+    title: "Diverse Pflanzen",
+    description:
+        "",
+    price: 10,
+    newPrice: 0,
+    photoUrl: [
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780250357/Items/IMG_9719_wu5xhj.heic",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780250358/Items/IMG_9721_p9sqrm.heic",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780250420/Items/IMG_9725_o8mgxx.heic",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780250421/Items/IMG_9729_uyzriv.heic",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780250423/Items/IMG_9731_ivprew.heic",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780250424/Items/IMG_9732_cexown.heic",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780250436/Items/IMG_9741_uehuki.heic",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780250438/Items/IMG_9746_qugwhs.heic",
+      "https://res.cloudinary.com/dbeyz3sxb/image/upload/v1780250440/Items/IMG_9747_dhuqco.heic"
     ],
   }
 ];
