@@ -44,7 +44,7 @@ export function ImageGallery({ photos, title }: ImageGalleryProps) {
           alt={`${title} — Foto ${active + 1} von ${count}`}
           loading="lazy"
           decoding="async"
-          className="aspect-[4/3] w-full object-cover"
+          className="aspect-[4/3] w-full object-contain"
         />
 
         {count > 1 && (

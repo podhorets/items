@@ -35,7 +35,7 @@ export function ItemCard({ item, onSelect }: ItemCardProps) {
             alt={item.title}
             loading="lazy"
             decoding="async"
-            className="aspect-[4/3] w-full object-cover transition duration-300 group-hover:scale-[1.03]"
+            className="aspect-[4/3] w-full object-contain transition duration-300 group-hover:scale-[1.03]"
           />
         </button>
 
